@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <header class="bg-purple-500 shadow-md">
+  <header class="bg-purple-500 shadow-md sticky top-0 z-10">
     <nav class="container mx-auto flex justify-between items-center py-4 px-6">
       <router-link :to="{name: 'home'}" class="flex items-center">
         <img src="/assets/me.png" alt="Logo" class="w-8 h-8 rounded-full mr-3">
@@ -26,7 +26,7 @@
 
 <style scoped>
 header {
+  position: sticky;
   z-index: 10;
-  position: relative;
 }
 </style>
