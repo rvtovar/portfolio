@@ -7,7 +7,7 @@
     <div class="content">
       <slot></slot>
     </div>
-    <css-doodle>
+    <css-doodle class="doodle">
       :doodle {
       @grid: 1x3 / 100vmax;
       position: absolute;
@@ -15,7 +15,7 @@
       z-index: 0;
       }
 
-      @size: 100% 100%;
+      @size: 100% 200%;
       position: absolute;
 
       background: @m(100, (
@@ -50,4 +50,10 @@
   overflow: hidden;
   background-color: #4B0082;
 }
+@media (max-width: 850px) {
+  .doodle {
+    display: none;
+  }
+}
+
 </style>

@@ -36,7 +36,7 @@
       <div class="mb-20 text-center">
         <h2 class="text-2xl md:text-4xl font-bold mb-4">Technologies I Use</h2>
         <br>
-        <div class="flex flex-wrap justify-center space-x-2 md:space-x-4">
+        <div class="grid grid-cols-4 gap-2 md:flex md:flex-wrap md:justify-center md:space-x-4">
           <i class="devicon-python-plain text-3xl md:text-6xl"></i>
           <i class="devicon-django-plain text-3xl md:text-6xl"></i>
           <i class="devicon-fastapi-plain text-3xl md:text-6xl"></i>
