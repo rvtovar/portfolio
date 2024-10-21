@@ -1,5 +1,5 @@
 <template>
-  <div class="text-white">
+  <div class="text-white relative z-20">
     <section class="container mx-auto py-8 px-4 md:py-16 md:px-6">
       <div class="flex flex-col md:flex-row items-center justify-between mb-8">
         <div class="text-center md:text-left mb-8 md:mb-0">
@@ -56,7 +56,7 @@
         <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
           <div class="flex items-center space-x-2">
             <i class="devicon-linkedin-plain text-3xl md:text-4xl"></i>
-            <a href="https://www.linkedin.com/in/rvtovar/" class="text-lg md:text-2xl">Find me on LinkedIn</a>
+            <a href="https://www.linkedin.com/in/rvtovar/" target="_blank" class="text-lg md:text-2xl">Find me on LinkedIn</a>
           </div>
           <div class="flex items-center space-x-2">
             <i class="fas fa-envelope text-3xl md:text-4xl"></i>
@@ -64,7 +64,7 @@
           </div>
           <div class="flex items-center space-x-2">
             <i class="fab fa-discord text-3xl md:text-4xl"></i>
-            <span class="text-lg md:text-2xl">Vanica4Rize</span>
+            <a href="https://discordapp.com/users/599047807885770761"  target="_blank" class="text-lg md:text-2xl">Vanica4Rize</a>
           </div>
         </div>
       </div>
