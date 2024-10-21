@@ -53,18 +53,21 @@
       </div>
       <div class="mb-0 text-center">
         <h2 class="text-2xl md:text-4xl font-bold mb-4">Connect With Me</h2>
-        <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
+        <div class="flex flex-row justify-center items-center space-x-4">
           <div class="flex items-center space-x-2">
-            <i class="devicon-linkedin-plain text-3xl md:text-4xl"></i>
-            <a href="https://www.linkedin.com/in/rvtovar/" target="_blank" class="text-lg md:text-2xl">Find me on LinkedIn</a>
+            <a href="https://www.linkedin.com/in/rvtovar/" target="_blank" class="text-lg md:text-2xl">
+              <i class="devicon-linkedin-plain text-3xl md:text-4xl"></i>
+            </a>
           </div>
           <div class="flex items-center space-x-2">
-            <i class="fas fa-envelope text-3xl md:text-4xl"></i>
-            <a href="mailto:contact@vanica4rize.com" class="text-lg md:text-2xl">Send Me an Email</a>
+            <a href="mailto:contact@vanica4rize.com" class="text-lg md:text-2xl">
+              <i class="fas fa-envelope text-3xl md:text-4xl"></i>
+            </a>
           </div>
           <div class="flex items-center space-x-2">
-            <i class="fab fa-discord text-3xl md:text-4xl"></i>
-            <a href="https://discordapp.com/users/599047807885770761"  target="_blank" class="text-lg md:text-2xl">Vanica4Rize</a>
+            <a href="https://discordapp.com/users/599047807885770761" target="_blank" class="text-lg md:text-2xl">
+              <i class="fab fa-discord text-3xl md:text-4xl"></i>
+            </a>
           </div>
         </div>
       </div>
