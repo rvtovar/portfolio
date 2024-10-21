@@ -2,23 +2,22 @@
 import 'css-doodle'
 import Navbar from '@/components/Navbar.vue'
 import DoodleBackground from '@/components/DoodleBackground.vue'
+import { ref } from 'vue'
 
-
+// const scrollToTop = ref(false)
+//
+// function handleAfterLeave() {
+//   scrollToTop.value = true
+// }
 </script>
 
 <template>
-<Navbar />
-<doodle-background>
-  <router-view v-slot="{Component, route}">
+  <Navbar />
+  <doodle-background>
     <transition name="fade" mode="out-in">
-      <main :key="route.name">
-        <component :is="Component"></component>
-      </main>
+      <router-view />
     </transition>
-  </router-view>
-</doodle-background>
-
-
+  </doodle-background>
 </template>
 
 <style scoped>
@@ -30,5 +29,4 @@ import DoodleBackground from '@/components/DoodleBackground.vue'
 .fade-leave-to {
   opacity: 0;
 }
-
 </style>
