@@ -1,18 +1,9 @@
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref } from 'vue';
+import projectData from "@/assets/projects.json";
+const projects = ref(projectData);
 
-const projects = ref([]);
 
-const fetchProjects = async () => {
-  try {
-    const response = await fetch('/src/assets/projects.json');
-    projects.value = await response.json();
-  } catch (error) {
-    console.error('Error fetching projects:', error);
-  }
-};
-
-onMounted(fetchProjects);
 </script>
 
 <template>
