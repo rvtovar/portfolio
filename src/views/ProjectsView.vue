@@ -11,7 +11,7 @@ const projects = ref(projectData);
     <div
       v-for="project in projects"
       :key="project.title"
-      :class="['project-box', `bg-${project.color}-100`, 'p-6', 'rounded-lg', 'shadow-md', 'mb-6', 'relative', 'z-10']"
+      class="project-box p-6 rounded-lg shadow-md mb-6 relative z-10 bg-purple-100"
     >
       <h2 class="text-2xl font-bold mb-2">
         {{ project.time }}
