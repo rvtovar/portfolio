@@ -26,7 +26,7 @@
             <span class="text-red-400">Rust</span>, and I love building web applications, desktop GUIs, and video games in Godot.
           </p>
           <p class="text-lg md:text-2xl mb-4">
-            My background in computational physics involves programming in C++ and Python, where I've tackled complex challenges like dynamic rupture models.
+            My background in computational physics involved programming in C++ and Python, where I've tackled complex challenges like dynamic rupture models.
           </p>
           <p class="text-lg md:text-2xl">
             This blend of creative and technical skills fuels my passion for software development.
