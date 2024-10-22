@@ -1,26 +1,38 @@
 [
   {
+    "title": "Table Top Rpg Game Manager API",
+    "time": "Oct 2023 - Present",
+    "link": "https://github.com/rvtovar/table_top_manager",
+    "img_url": "assets/dnd.png",
+    "bullets": [],
+    "tech": ["Go", "Gin", "MariaDB", "Vue"],
+    "status": "in-progress"
+
+  },
+  {
     "title":"Console To-Do's",
     "time": "Summer 2023",
     "link": "https://github.com/rvtovar/rust_todos",
+    "img_url": "assets/todos.png",
     "bullets": [
       "Developed a console-based to-do application with integration into a local PostgreSQL database for efficient task management and data persistence.",
       "Implemented seamless user interactions to enhance the overall functionality of the application.",
       "Optimized code modules using Rust to improve performance and maintainability for the application."
     ],
     "tech": ["Rust", "PostgreSQl", "Tokio"],
-    "color": "purple"
+    "status": "completed"
   },
   {
     "title": "Quick Organics Web Application",
     "time": "2022 - 2023",
     "link": "https://app.transition.quickorganics.com/login",
+    "img_url": "assets/qoca.png",
     "bullets": [
       "Developed scalable APIs with Django Rest Framework and PostgreSQL, significantly enhancing data retrieval efficiency",
       "Conducted weekly Postgres Database migrations to ensure data integrity and optimize performance, utilizing advanced SQL queries",
       "Collaborated with cross-functional teams to implement scalable solutions, enhancing application responsiveness by 50% within the established timeframe."
     ],
     "tech": ["Python","Django Rest Framework", "PostgreSQL"],
-    "color": "green"
+    "status": "completed"
   }
 ]
