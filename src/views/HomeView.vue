@@ -36,19 +36,22 @@
       <div class="mb-20 text-center">
         <h2 class="text-2xl md:text-4xl font-bold mb-4">Technologies I Use</h2>
         <br>
-        <div class="grid grid-cols-4 gap-2 md:flex md:flex-wrap md:justify-center md:space-x-4">
+        <div class="grid grid-cols-5 gap-2 md:flex md:flex-wrap md:justify-center md:space-x-4">
           <i class="devicon-python-plain text-3xl md:text-6xl"></i>
           <i class="devicon-django-plain text-3xl md:text-6xl"></i>
           <i class="devicon-fastapi-plain text-3xl md:text-6xl"></i>
           <i class="devicon-javascript-plain text-3xl md:text-6xl"></i>
           <i class="devicon-vuejs-plain text-3xl md:text-6xl"></i>
           <i class="devicon-react-plain text-3xl md:text-6xl"></i>
+          <i class="devicon-nodejs-plain text-3xl md:text-6xl"></i>
+          <i class="devicon-express-original text-3xl md:text-6xl"></i>
           <i class="devicon-go-plain text-3xl md:text-6xl"></i>
           <i class="devicon-csharp-plain text-3xl md:text-6xl"></i>
           <i class="devicon-dotnetcore-plain text-3xl md:text-6xl"></i>
           <i class="devicon-rust-plain text-3xl md:text-6xl"></i>
-          <i class="devicon-cplusplus-plain text-3xl md:text-6xl"></i>
-          <i class="devicon-amazonwebservices-plain text-3xl md:text-6xl"></i>
+          <i class="devicon-postgresql-plain text-3xl md:text-6xl"></i>
+          <i class="devicon-mongodb-plain text-3xl md:text-6xl"></i>
+          <i class="devicon-mariadb-plain text-3xl md:text-6xl"></i>
         </div>
       </div>
       <div class="mb-0 text-center">
@@ -71,11 +74,13 @@
           </div>
         </div>
       </div>
+
     </section>
   </div>
 </template>
 
 <script setup>
+
 </script>
 
 <style scoped>

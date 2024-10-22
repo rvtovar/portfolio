@@ -1,32 +1,51 @@
+<script setup>
+import { ref, onMounted } from 'vue';
+
+const projects = ref([]);
+
+const fetchProjects = async () => {
+  try {
+    const response = await fetch('/src/assets/projects.json');
+    projects.value = await response.json();
+  } catch (error) {
+    console.error('Error fetching projects:', error);
+  }
+};
+
+onMounted(fetchProjects);
+</script>
+
 <template>
   <div class="projects-container p-8">
-    <div class="project-box bg-purple-100 p-6 rounded-lg shadow-md mb-6 relative z-10">
-      <h2 class="text-2xl font-bold mb-2">Summer 2023
-        <a href="https://github.com/rvtovar/rust_todos" class="text-blue-500">
-          Console To-Do's
+    <div
+      v-for="project in projects"
+      :key="project.title"
+      :class="['project-box', `bg-${project.color}-100`, 'p-6', 'rounded-lg', 'shadow-md', 'mb-6', 'relative', 'z-10']"
+    >
+      <h2 class="text-2xl font-bold mb-2">
+        {{ project.time }}
+        <a :href="project.link" class="text-blue-500">
+          {{ project.title }}
         </a>
       </h2>
 
       <ul class="list-disc list-inside mb-4">
-        <li>Developed a console-based to-do application with integration into a local PostgreSQL database for efficient task management and data persistence.</li>
-        <li>Implemented seamless user interactions to enhance the overall functionality of the application.</li>
-        <li>Optimized code modules using Rust to improve performance and maintainability for the application.</li>
+        <li v-for="bullet in project.bullets" :key="bullet">{{ bullet }}</li>
       </ul>
-      <a href="https://github.com/rvtovar/rust_todos" target="_blank" class="inline-block px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-300">View Here</a>
-    </div>
-    <div class="project-box bg-green-100 p-6 rounded-lg shadow-md mb-6 relative z-10">
-      <h2 class="text-2xl font-bold mb-2">2022 – 2023
-        <a href="https://app.transition.quickorganics.com/login" class="text-blue-400">
-          Quick Organics Web Application
+      <div class="text-center mb-4">
+        <a
+          :href="project.link"
+          target="_blank"
+          class="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300"
+        >
+          View Here
         </a>
-      </h2>
-
-      <ul class="list-disc list-inside mb-4">
-        <li>Developed scalable APIs with Django Rest Framework and PostgreSQL, significantly enhancing data retrieval efficiency.</li>
-        <li>Conducted weekly Postgres Database migrations to ensure data integrity and optimize performance, utilizing advanced SQL queries.</li>
-        <li>Collaborated with cross-functional teams to implement scalable solutions, enhancing application responsiveness by 50% within the established timeframe.</li>
+      </div>
+      <ul class="tech-stack flex flex-wrap justify-center space-x-2 sm:space-x-4">
+        <li v-for="(tech, index) in project.tech" :key="tech" class="text-sm sm:text-lg font-medium">
+          {{ tech }}<span v-if="index < project.tech.length - 1"> • </span>
+        </li>
       </ul>
-      <a href="https://app.transition.quickorganics.com/login" target="_blank" class="inline-block px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-300">View Here</a>
     </div>
   </div>
 </template>
@@ -37,5 +56,3 @@
   margin: 0 auto;
 }
 </style>
-<script setup lang="ts">
-</script>
