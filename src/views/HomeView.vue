@@ -39,18 +39,16 @@
         <div class="grid grid-cols-5 gap-2 md:flex md:flex-wrap md:justify-center md:space-x-4">
           <i class="devicon-python-plain text-3xl md:text-6xl"></i>
           <i class="devicon-django-plain text-3xl md:text-6xl"></i>
-          <i class="devicon-fastapi-plain text-3xl md:text-6xl"></i>
+          <i class="devicon-ruby-plain text-3xl md:text-6xl"></i>
+          <i class="devicon-rails-plain text-3xl md:text-6xl"></i>
+          <i class="devicon-php-plain text-3xl md:text-6xl"></i>
+          <i class="devicon-laravel-plain text-3xl md:text-6xl"></i>
           <i class="devicon-javascript-plain text-3xl md:text-6xl"></i>
           <i class="devicon-vuejs-plain text-3xl md:text-6xl"></i>
-          <i class="devicon-react-plain text-3xl md:text-6xl"></i>
-          <i class="devicon-nodejs-plain text-3xl md:text-6xl"></i>
-          <i class="devicon-express-original text-3xl md:text-6xl"></i>
-          <i class="devicon-go-plain text-3xl md:text-6xl"></i>
           <i class="devicon-csharp-plain text-3xl md:text-6xl"></i>
           <i class="devicon-dotnetcore-plain text-3xl md:text-6xl"></i>
-          <i class="devicon-rust-plain text-3xl md:text-6xl"></i>
+          <i class="devicon-go-plain text-3xl md:text-6xl"></i>
           <i class="devicon-postgresql-plain text-3xl md:text-6xl"></i>
-          <i class="devicon-mongodb-plain text-3xl md:text-6xl"></i>
           <i class="devicon-mariadb-plain text-3xl md:text-6xl"></i>
         </div>
       </div>
