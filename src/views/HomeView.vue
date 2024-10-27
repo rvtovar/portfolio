@@ -19,11 +19,12 @@
           </p>
           <p class="text-lg md:text-2xl mb-4">
             I am well-versed in
-            <span class="text-yellow-400">Python</span>,
-            <span class="text-blue-400">JavaScript</span>,
-            <span class="text-green-400">Go</span>,
+            <span class="text-blue-400">Python</span>,
+            <span class="text-red-400">Ruby</span>,
+            <span class="text-indigo-400">PHP</span>,
+            <span class="text-yellow-400">Javascript</span>,
             <span class="text-purple-400">C#</span>, and
-            <span class="text-red-400">Rust</span>, and I love building web applications, desktop GUIs, and video games in Godot.
+            <span class="text-orange-400">Go</span>. I love building web applications, desktop GUIs, and video games in Godot.
           </p>
           <p class="text-lg md:text-2xl mb-4">
             My background in computational physics involved programming in C++ and Python, where I've tackled complex challenges like dynamic rupture models.
