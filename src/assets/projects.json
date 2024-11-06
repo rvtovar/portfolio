@@ -2,11 +2,29 @@
   {
     "title": "Table Top Rpg Game Manager API",
     "time": "Oct 2023 - Present",
-    "link": "https://github.com/rvtovar/table_top_manager",
-    "img_url": "assets/dnd.png",
-    "bullets": [],
-    "tech": ["Go", "Gin", "MariaDB", "Vue"],
-    "status": "in-progress"
+    "link": "https://github.com/rvtovar/game_management",
+    "img_url": "assets/game_management.png",
+    "bullets": [
+        "Developed a RESTful API using Laravel and MariaDB to manage game data for a tabletop RPG, enabling users to create, update, and delete game data.",
+        "Implemented a user authentication system with JWT tokens to secure user data and prevent unauthorized access.",
+        "Utilized Laravel Eloquent ORM to interact with the database, enhancing data retrieval efficiency and application performance."
+    ],
+    "tech": ["PHP", "Laravel", "MariaDB"],
+    "status": "completed"
+
+  },
+  {
+    "title": "Alpha Blog",
+    "time": "Oct 2023 - Present",
+    "link": "https://github.com/rvtovar/alpha_blog",
+    "img_url": "assets/alpha_blog.png",
+    "bullets": [
+        "Developed a blog application using Ruby on Rails and MariaDB, enabling users to create, edit, and delete blog posts.",
+        "Implemented user authentication and authorization manually to secure user data and prevent unauthorized access.",
+        "Utilized Tailwind to design a responsive user interface, enhancing user experience and application usability."
+    ],
+    "tech": ["Ruby", "Rails", "TailwindCss", "Javascript","MariaDB"],
+    "status": "completed"
 
   },
   {
