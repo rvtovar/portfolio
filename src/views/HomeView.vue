@@ -20,7 +20,7 @@
           <p class="text-lg md:text-2xl mb-4">
             I am well-versed in
             <span class="text-blue-400">Python</span>,
-            <span class="text-red-400">Ruby</span>,
+            <span class="text-red-400">R</span>,
             <span class="text-indigo-400">PHP</span>,
             <span class="text-yellow-400">Javascript</span>,
             <span class="text-purple-400">C#</span>, and
@@ -40,10 +40,9 @@
         <div class="grid grid-cols-5 gap-2 md:flex md:flex-wrap md:justify-center md:space-x-4">
           <i class="devicon-python-plain text-3xl md:text-6xl"></i>
           <i class="devicon-django-plain text-3xl md:text-6xl"></i>
-          <i class="devicon-ruby-plain text-3xl md:text-6xl"></i>
-          <i class="devicon-rails-plain text-3xl md:text-6xl"></i>
           <i class="devicon-php-plain text-3xl md:text-6xl"></i>
           <i class="devicon-laravel-plain text-3xl md:text-6xl"></i>
+          <i class="devicon-symfony-plain text-3xl md:text-6xl"></i>
           <i class="devicon-javascript-plain text-3xl md:text-6xl"></i>
           <i class="devicon-vuejs-plain text-3xl md:text-6xl"></i>
           <i class="devicon-csharp-plain text-3xl md:text-6xl"></i>
@@ -51,6 +50,7 @@
           <i class="devicon-go-plain text-3xl md:text-6xl"></i>
           <i class="devicon-postgresql-plain text-3xl md:text-6xl"></i>
           <i class="devicon-mariadb-plain text-3xl md:text-6xl"></i>
+          <i class="devicon-r-plain text-3xl md:text-6xl"></i>
         </div>
       </div>
       <div class="mb-0 text-center">
